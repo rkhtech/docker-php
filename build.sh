@@ -6,7 +6,8 @@ set -e
 #chmod +x awslogs-agent-setup.py
 
 #docker pull php:5.6-apache
-docker pull php:7-apache
+#docker pull php:7-apache
+docker pull php:8-apache
  
 docker build -t rkhtech/php:7-apache .
 
